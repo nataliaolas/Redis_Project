@@ -1,0 +1,68 @@
+ECHO "WYSWIETLENIE KLUCZY"
+keys *
+EXPIRE limitowanaedycja:1:ksiazka 40
+TTL limitowanaedycja
+GET limitowanaedycja
+SET kodpromocyjny "Na 50 sekund" EX 50 NX
+TTL kodpromocyjny
+get kodpromocjny
+
+RPUSH 3top_ksiazki_roku "Harry Potter i Isygnia Smierci"
+RPUSH 3top_ksiazki_roku "Wojny biznesowe"
+PUSH 3top_ksiazki_roku "Dom Gucci. Potega mody, szalenstwo pieniedzy, gorycz upadku"
+LRANGE 3top_ksiazki_roku 1 4
+LRANGE 3top_ksiazki_roku 0 -1
+LLEN 3top_ksiazki_roku
+LPUSH 3top_ksiazki_roku "Czysty kod. Podrecznik dobrego programisty"
+LRANGE 3top_ksiazki_roku 0 -1
+RPOP 3top_ksiazki_roku
+LRANGE 3top_ksiazki_roku 0 -1
+
+SADD wydawnictwa "Wydawnictwo Helion"
+SMEMBERS wydawnictwa
+SADD wydawnictwa "Wydawnictwo Helion"
+SMEMBERS wydawnictwa
+SADD wydawnictwa "Wydawnictwo Marginesy"
+SADD wydawnictwa "Wydawnictwo Znak"
+SADD wydawnictwa "Wydawnictwo SQN"
+SADD wydawnictwa "Instytut Praktycznej Edukacji"
+SADD wydawnictwa "Znak Horyzont"
+SMEMBERS wydawnictwa
+SADD wydawnictwa "Wydawnictwo Feeria"
+SADD wydawnictwa "Publicat"
+SADD wydawnictwa "Pax"
+SADD wydawnictwa "Nasza ksiegarnia"
+SADD wydawnictwa "We need YA"
+SADD wydawnictwa "Fabryka Sﾈﾢw Sp. z o.o."
+SADD wydawnictwa "Wydawnictwo Iskry"
+SADD wydawnictwa "LittleLove"
+SADD wydawnictwa "Poltext"
+SADD wydawnictwa "Carlsen Verlag"
+SADD wydawnictwa "Simon & Schuster Ltd"
+SADD wydawnictwa "Little Brown Book Group"
+SMEMBERS wydawnictwa
+SCARD wydawnictwa
+SADD wydawnictwa_anglojezyczne "Bloomberg"
+SADD wydawnictwa_anglojezyczne "Simon & Schuster Ltd"
+SDIFF wydawnictwa wydawnictwa_anglojezyczne
+SADD wydawnictwa_anglojezyczne "Little Brown Book Group"
+SDIFF wydawnictwa wydawnictwa_anglojezyczne
+SADD wydawnictwa_anglojezyczne "We need YA"
+SDIFF wydawnictwa wydawnictwa_anglojezyczne
+
+ZADD kategorie_ksiazek_obcojezycznych 1 "Biografie" 2 "Biznes" 3 "Fantastyka" 4 "Kryminal" 5 "Literatura faktu" 6 "Romanse"
+ZCOUNT kategorie_ksiazek_obcojezycznych 1 6
+ZRANGE kategorie_ksiazek_obcojezycznych 0 -1 WITHSCORES
+ZADD kategorie_ksiazek_polskich 7  "Ksiazki kucharskie" 8 "Poradniki"
+
+HSET autor pierwsze_imie Joanne
+HMSET autor drugie_imie Kathleen nazwisko Rowling miejsceurodzenia Anglia
+HSET autor ksiazka HarryPotter
+HSET autor iloscsprzedanych_egzemplarzy 50000000
+HINCRBYFLOAT autor iloscsprzedanych_egzemplarzy +1000000
+HGETALL autor
+
+SADD zbior_ksiazek "Dom Gucci. Potega mody, szalenstwo pieniedzy, gorycz upadku" "My Love Story. Autobiografia" "Diana. Jej historia" "Quo vadis" "Pozwol, ze ci opowiem" "O niepodleglosci i prawa kobiet"
+SMEMBERS zbior_ksiazek
+
+

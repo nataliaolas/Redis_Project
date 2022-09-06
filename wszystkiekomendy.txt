@@ -1,0 +1,939 @@
+127.0.0.1:6379> keys *
+  1) "literaturaobca:3:rokwydania"
+  2) "ksiazkaprzygodowa:2:rokwydania"
+  3) "informatyka:3:podkategoria_inf"
+  4) "biografie:3:rokwydania"
+  5) "biznes:2:autor"
+  6) "ksiazkadladzieci:2:autor"
+  7) "poradniki:2:autor"
+  8) "ksiazkadladzieci:1:autor"
+  9) "literaturaobca:3:typ_oprawy"
+ 10) "fantastyka:2:autor"
+ 11) "podkategoria_biznes:2:typ"
+ 12) "biografie:2:autor"
+ 13) "zdjecia:4:opis"
+ 14) "podkategoria_biznes:4:typ"
+ 15) "ksiazkaprzygodowa:3:tytul"
+ 16) "informatyka:1:podkategoria_inf"
+ 17) "literaturaobca:2:tytul"
+ 18) "biznes:2:tytul"
+ 19) "ksiazkadladzieci:1:tytul"
+ 20) "fantastyka:2:rokwydania"
+ 21) "literaturaobca:2:jezyk"
+ 22) "fantastyka:1:autor"
+ 23) "ksiazkaprzygodowa:3:wydawnictwo"
+ 24) "ksiazkaprzygodowa:2:tytul"
+ 25) "ksiazkadladzieci:3:autor"
+ 26) "ksiazkaprzygodowa:1:typ_oprawy"
+ 27) "biografie:1:osoba"
+ 28) "ksiazkaprzygodowa:1:tytul"
+ 29) "informatyka:2:podkategoria_inf"
+ 30) "biografie:2:typ_oprawy"
+ 31) "zdjecia:4:adres_url"
+ 32) "podkategoria_inf:6:typ"
+ 33) "literaturaobca:1:tytul"
+ 34) "informatyka:4:rokwydania"
+ 35) "fantastyka:2:wydawnictwo"
+ 36) "poradniki:2:rokwydania"
+ 37) "literaturaobca:3:tytul"
+ 38) "ksiazkadladzieci:3:typ_oprawy"
+ 39) "ksiazkaprzygodowa:1:wydawnictwo"
+ 40) "podkategoria_inf:4:typ"
+ 41) "informatyka:1:autor"
+ 42) "typ_oprawy:1:typ"
+ 43) "zdjecia:1:adres_url"
+ 44) "literaturaobca:4:wydawnictwo"
+ 45) "informatyka:2:typ_oprawy"
+ 46) "poradniki:1:wydawnictwo"
+ 47) "ksiazkadladzieci:3:tytul"
+ 48) "ksiazkaprzygodowa:3:autor"
+ 49) "biznes:1:tytul"
+ 50) "poradniki:1:tytul"
+ 51) "literaturaobca:4:typ_oprawy"
+ 52) "zdjecia:5:adres_url"
+ 53) "poradniki:1:typ_oprawy"
+ 54) "ksiazkadladzieci:2:typ_oprawy"
+ 55) "literaturaobca:3:autor"
+ 56) "biografie:2:tytul"
+ 57) "podkategoria_biznes:1:typ"
+ 58) "ksiazkaprzygodowa:2:typ_oprawy"
+ 59) "ksiazkaprzygodowa:2:autor"
+ 60) "informatyka:3:autor"
+ 61) "poradniki:2:tytul"
+ 62) "biografie:1:rokwydania"
+ 63) "informatyka:4:podkategoria_inf"
+ 64) "literaturaobca:2:rokwydania"
+ 65) "informatyka:2:wydawnictwo"
+ 66) "biografie:3:tytul"
+ 67) "podkategoria_biznes:7:typ"
+ 68) "biografie:3:wydawnictwo"
+ 69) "informatyka:1:typ_oprawy"
+ 70) "biznes:1:zdjecia"
+ 71) "literaturaobca:3:wydawnictwo"
+ 72) "biznes:1:autor"
+ 73) "literaturaobca:4:rokwydania"
+ 74) "podkategoria_inf:7:typ"
+ 75) "ksiazkadladzieci:2:tytul"
+ 76) "ksiazkadladzieci:1:typ_oprawy"
+ 77) "informatyka:3:wydawnictwo"
+ 78) "literaturaobca:1:wydawnictwo"
+ 79) "ksiazkaprzygodowa:1:autor"
+ 80) "podkategoria_biznes:5:typ"
+ 81) "fantastyka:3:wydawnictwo"
+ 82) "poradniki:2:wydawnictwo"
+ 83) "fantastyka:2:tytul"
+ 84) "ksiazkadladzieci:1:odroku"
+ 85) "fantastyka:1:wydawnictwo"
+ 86) "biografie:3:autor"
+ 87) "biznes:2:rokwydania"
+ 88) "fantastyka:2:typ_oprawy"
+ 89) "podkategoria_biznes:6:typ"
+ 90) "literaturaobca:2:wydawnictwo"
+ 91) "literaturaobca:1:rokwydania"
+ 92) "fantastyka:3:rokwydania"
+ 93) "poradniki:3:tytul"
+ 94) "podkategoria_inf:2:typ"
+ 95) "literaturaobca:1:jezyk"
+ 96) "zdjecia:2:adres_url"
+ 97) "ksiazkadladzieci:3:odroku"
+ 98) "fantastyka:3:tytul"
+ 99) "informatyka:4:wydawnictwo"
+100) "poradniki:1:rokwydania"
+101) "biografie:2:wydawnictwo"
+102) "biografie:1:wydawnictwo"
+103) "zdjecia:3:adres_url"
+104) "literaturaobca:4:jezyk"
+105) "podkategoria_biznes:3:typ"
+106) "biografie:1:typ_oprawy"
+107) "biznes:1:rokwydania"
+108) "biografie:3:typ_oprawy"
+109) "poradniki:3:typ_oprawy"
+110) "ksiazkaprzygodowa:2:wydawnictwo"
+111) "informatyka:4:autor"
+112) "biografie:2:osoba"
+113) "fantastyka:1:tytul"
+114) "informatyka:2:autor"
+115) "informatyka:1:tytul"
+116) "stud"
+117) "poradniki:3:rokwydania"
+118) "biografie:2:rokwydania"
+119) "podkategoria_inf:5:typ"
+120) "typ_oprawy:2:typ"
+121) "informatyka:3:rokwydania"
+122) "biznes:2:wydawnictwo"
+123) "informatyka:4:tytul"
+124) "fantastyka:1:typ_oprawy"
+125) "ksiazkaprzygodowa:1:rokwydania"
+126) "podkategoria_inf:1:typ"
+127) "informatyka:1:wydawnictwo"
+128) "ksiazkadladzieci:2:wydawnictwo"
+129) "literaturaobca:4:tytul"
+130) "informatyka:3:tytul"
+131) "zdjecia:5:opis"
+132) "biznes:2:typ_oprawy"
+133) "literaturaobca:1:autor"
+134) "poradniki:3:autor"
+135) "poradniki:3:wydawnictwo"
+136) "poradniki:1:autor"
+137) "informatyka:2:tytul"
+138) "fantastyka:3:typ_oprawy"
+139) "biografie:1:autor"
+140) "ksiazkadladzieci:2:odroku"
+141) "poradniki:2:typ_oprawy"
+142) "biografie:1:tytul"
+143) "biografie:1:zdjecia"
+144) "informatyka:2:rokwydania"
+145) "ksiazkadladzieci:3:wydawnictwo"
+146) "key"
+147) "informatyka:1:rokwydania"
+148) "fantastyka:1:rokwydania"
+149) "biznes:1:typ_oprawy"
+150) "podkategoria_inf:3:typ"
+151) "literaturaobca:2:autor"
+152) "ksiazkaprzygodowa:3:rokwydania"
+153) "informatyka:4:typ_oprawy"
+154) "literaturaobca:3:jezyk"
+155) "informatyka:3:typ_oprawy"
+156) "ksiazkadladzieci:1:wydawnictwo"
+157) "literaturaobca:2:typ_oprawy"
+158) "biznes:2:zdjecia"
+159) "ksiazkaprzygodowa:3:typ_oprawy"
+160) "fantastyka:3:autor"
+161) "literaturaobca:4:autor"
+162) "biznes:1:wydawnictwo"
+163) "literaturaobca:1:typ_oprawy"
+127.0.0.1:6379> set biznes:1
+(error) ERR wrong number of arguments for 'set' command
+127.0.0.1:6379> set biznes:1:typ_oprawy
+(error) ERR wrong number of arguments for 'set' command
+127.0.0.1:6379> set fantastyka "1"
+OK
+127.0.0.1:6379> DECR fantastyka
+(integer) 0
+127.0.0.1:6379> SET fanstastyka "5"
+OK
+127.0.0.1:6379> DECR fastastyka
+(integer) -1
+127.0.0.1:6379> SET fantastyka "5"
+OK
+127.0.0.1:6379> DECR fanstastyka
+(integer) 4
+127.0.0.1:6379> STRLEN literaturaobca
+(integer) 0
+127.0.0.1:6379> STRLEN literaturaobca:2:autor
+(integer) 24
+127.0.0.1:6379> STRLEN informatyka:3:typ_oprawy
+(integer) 1
+127.0.0.1:6379> STRLEN ksiazkaprzygodowa:2:wydawnictwo
+(integer) 9
+127.0.0.1:6379> set limitowanaedycja:1:ksiazka "Gra o Tron"
+OK
+127.0.0.1:6379> EXPIRE limitowanaedycja:1:ksiazka 40
+(integer) 1
+127.0.0.1:6379> TTL limitowanaedycja
+(integer) -2
+127.0.0.1:6379> GET limitowanaedycja
+(nil)
+127.0.0.1:6379> SET kodpromocyjny "Na 50 sekund" EX 50 NX
+OK
+127.0.0.1:6379> TTL kodpromocyjny
+(integer) 45
+127.0.0.1:6379> get kodpromocjny
+(nil)
+127.0.0.1:6379> RPUSH top_ksiazki_roku ksiazkaprzygodowa:2:tytul "Harry Potter i Insygnia ﾗmierci"
+(integer) 2
+127.0.0.1:6379> LRANGE top_ksiazki_roku
+(error) ERR wrong number of arguments for 'lrange' command
+127.0.0.1:6379> LRANGE top_ksiazki_roku 1 2
+1) "Harry Potter i Insygnia \x97mierci"
+127.0.0.1:6379> LRANGE top_ksiazki_roku 1 1
+1) "Harry Potter i Insygnia \x97mierci"
+127.0.0.1:6379> LRANGE top_ksiazki_roku 1 3
+1) "Harry Potter i Insygnia \x97mierci"
+127.0.0.1:6379> RPOP top_ksiazki_roku ksiazkaprzygodowa:2:tytul "Harry Potter i Insygnia ﾗmierci"
+(error) ERR wrong number of arguments for 'rpop' command
+127.0.0.1:6379> RPOP top_ksiazki_roku
+"Harry Potter i Insygnia \x97mierci"
+127.0.0.1:6379> LRANGE top_ksiazki_roku 1 1
+(empty list or set)
+127.0.0.1:6379> RPOP top_ksiazki_roku ksiazkaprzygodowa:2:tytul "Harry Potter i Insygnia ﾗmierci"
+(error) ERR wrong number of arguments for 'rpop' command
+127.0.0.1:6379>
+127.0.0.1:6379> RPUSH top_ksiazki_roku ksiazkaprzygodowa:2:tytul "Harry Potter i Insygnia Smierci"
+(integer) 3
+127.0.0.1:6379> LRANGE top_ksiazki_roku 1 3
+1) "ksiazkaprzygodowa:2:tytul"
+2) "Harry Potter i Insygnia Smierci"
+127.0.0.1:6379> RPOP top_ksiazki_roku
+"Harry Potter i Insygnia Smierci"
+127.0.0.1:6379> RPOP top_ksiazki_roku
+"ksiazkaprzygodowa:2:tytul"
+127.0.0.1:6379> RPOP top_ksiazki_roku ksiazkaprzygodowa:2:tytul "Harry Potter i Insygnia ﾗmierci"
+(error) ERR wrong number of arguments for 'rpop' command
+127.0.0.1:6379> RPUSH top_ksiazki_roku ksiazkaprzygodowa:2:tytul "Harry Potter i Insygnia ﾗmierci"
+(integer) 3
+127.0.0.1:6379> RPOP top_ksiazki_roku
+"Harry Potter i Insygnia \x97mierci"
+127.0.0.1:6379> RPOP top_ksiazki_roku
+"ksiazkaprzygodowa:2:tytul"
+127.0.0.1:6379> LRANGE top_ksiazki_roku 1 3
+(empty list or set)
+127.0.0.1:6379> RPUSH top_ksiazki_roku ksiazkaprzygodowa:2:tytul"Harry Potter i Insygnia ﾗmierci"
+(integer) 2
+127.0.0.1:6379> LRANGE top_ksiazki_roku 1 3
+1) "ksiazkaprzygodowa:2:tytulHarry Potter i Insygnia \x97mierci"
+127.0.0.1:6379> RPUSH top_ksiazki_roku fantastyka:2:tytul "Pustynny Ksiﾥﾾﾩ. Cykl Zmroku. Tom 1 "
+(integer) 4
+127.0.0.1:6379> LRANGE top_ksiazki_roku 1 5
+1) "ksiazkaprzygodowa:2:tytulHarry Potter i Insygnia \x97mierci"
+2) "fantastyka:2:tytul"
+3) "Pustynny Ksi\xa5\xbe\xa9. Cykl Zmroku. Tom 1 "
+127.0.0.1:6379> RPOP top_ksiazki_roku
+"Pustynny Ksi\xa5\xbe\xa9. Cykl Zmroku. Tom 1 "
+127.0.0.1:6379> RPOP top_ksiazki_roku
+"fantastyka:2:tytul"
+127.0.0.1:6379> RPOP top_ksiazki_roku
+"ksiazkaprzygodowa:2:tytulHarry Potter i Insygnia \x97mierci"
+127.0.0.1:6379> LRANGE top_ksiazki_roku 1 3
+(empty list or set)
+127.0.0.1:6379> RPOP top_ksiazki_roku ksiazkaprzygodowa:2:tytul"Harry Potter i Insygnia Smierci"
+(error) ERR wrong number of arguments for 'rpop' command
+127.0.0.1:6379> RPUSH top_ksiazki_roku ksiazkaprzygodowa:2:tytul"Harry Potter i Insygnia Smierci"
+(integer) 2
+127.0.0.1:6379> LRANGE top_ksiazki_roku 1 3
+1) "ksiazkaprzygodowa:2:tytulHarry Potter i Insygnia Smierci"
+127.0.0.1:6379> RPUSH top_ksiazki_roku fantastyka:2:tytul "Pustynny Ksiaze. Cykl Zmroku. Tom 1 "
+(integer) 4
+127.0.0.1:6379> RPUSH top_ksiazki_roku biznes:2:tytul "Wojny biznesowe"
+(integer) 6
+127.0.0.1:6379> RPOP top_ksiazki_roku
+"Wojny biznesowe"
+127.0.0.1:6379>
+127.0.0.1:6379>
+127.0.0.1:6379>
+127.0.0.1:6379>
+127.0.0.1:6379>
+127.0.0.1:6379>
+127.0.0.1:6379> RPUSH 3top_ksiazki_roku "Harry Potter i Isygnia Smierci"
+(integer) 1
+127.0.0.1:6379> RPUSH 3top_ksiazki_roku "Wojny biznesowe"
+(integer) 2
+127.0.0.1:6379> RPUSH 3top_ksiazki_roku "Dom Gucci. Potega mody, szalenstwo pieniedzy, gorycz upadku"
+(integer) 3
+127.0.0.1:6379> LRANGE 3top_ksiazki_roku 1 4
+1) "Wojny biznesowe"
+2) "Dom Gucci. Potega mody, szalenstwo pieniedzy, gorycz upadku"
+127.0.0.1:6379> LRANGE 3top_ksiazki_roku 1 6
+1) "Wojny biznesowe"
+2) "Dom Gucci. Potega mody, szalenstwo pieniedzy, gorycz upadku"
+127.0.0.1:6379> LRANGE 3top_ksiazki_roku 0 -1
+1) "Harry Potter i Isygnia Smierci"
+2) "Wojny biznesowe"
+3) "Dom Gucci. Potega mody, szalenstwo pieniedzy, gorycz upadku"
+127.0.0.1:6379> LLEN 3_top_ksiazki_roku
+(integer) 0
+127.0.0.1:6379> LLEN 3top_ksiazki_roku
+(integer) 3
+127.0.0.1:6379> LPOP 3top_ksiazki_roku "Czysty kod. Podrecznik dobrego programisty"
+(error) ERR wrong number of arguments for 'lpop' command
+127.0.0.1:6379> LPUSH 3top_ksiazki_roku "Czysty kod. Podrecznik dobrego programisty"
+(integer) 4
+127.0.0.1:6379> LRANGE 3top_ksiazki_roku 0 -1
+1) "Czysty kod. Podrecznik dobrego programisty"
+2) "Harry Potter i Isygnia Smierci"
+3) "Wojny biznesowe"
+4) "Dom Gucci. Potega mody, szalenstwo pieniedzy, gorycz upadku"
+127.0.0.1:6379> RPOP 3top_ksiazki_roku
+"Dom Gucci. Potega mody, szalenstwo pieniedzy, gorycz upadku"
+127.0.0.1:6379> LRANGE 3top_ksiazki_roku 0 -1
+1) "Czysty kod. Podrecznik dobrego programisty"
+2) "Harry Potter i Isygnia Smierci"
+3) "Wojny biznesowe"
+127.0.0.1:6379> LPOP fantastyka
+(error) WRONGTYPE Operation against a key holding the wrong kind of value
+127.0.0.1:6379> LRANGE fantastyka
+(error) ERR wrong number of arguments for 'lrange' command
+127.0.0.1:6379> keys * value
+(error) ERR wrong number of arguments for 'keys' command
+127.0.0.1:6379> keys *
+  1) "literaturaobca:3:rokwydania"
+  2) "ksiazkaprzygodowa:2:rokwydania"
+  3) "informatyka:3:podkategoria_inf"
+  4) "biografie:3:rokwydania"
+  5) "biznes:2:autor"
+  6) "ksiazkadladzieci:2:autor"
+  7) "poradniki:2:autor"
+  8) "ksiazkadladzieci:1:autor"
+  9) "literaturaobca:3:typ_oprawy"
+ 10) "fantastyka:2:autor"
+ 11) "podkategoria_biznes:2:typ"
+ 12) "biografie:2:autor"
+ 13) "zdjecia:4:opis"
+ 14) "podkategoria_biznes:4:typ"
+ 15) "ksiazkaprzygodowa:3:tytul"
+ 16) "informatyka:1:podkategoria_inf"
+ 17) "literaturaobca:2:tytul"
+ 18) "biznes:2:tytul"
+ 19) "ksiazkadladzieci:1:tytul"
+ 20) "fantastyka:2:rokwydania"
+ 21) "literaturaobca:2:jezyk"
+ 22) "fantastyka:1:autor"
+ 23) "ksiazkaprzygodowa:3:wydawnictwo"
+ 24) "ksiazkaprzygodowa:2:tytul"
+ 25) "ksiazkadladzieci:3:autor"
+ 26) "ksiazkaprzygodowa:1:typ_oprawy"
+ 27) "biografie:1:osoba"
+ 28) "ksiazkaprzygodowa:1:tytul"
+ 29) "informatyka:2:podkategoria_inf"
+ 30) "biografie:2:typ_oprawy"
+ 31) "zdjecia:4:adres_url"
+ 32) "podkategoria_inf:6:typ"
+ 33) "literaturaobca:1:tytul"
+ 34) "informatyka:4:rokwydania"
+ 35) "fantastyka:2:wydawnictwo"
+ 36) "poradniki:2:rokwydania"
+ 37) "literaturaobca:3:tytul"
+ 38) "ksiazkadladzieci:3:typ_oprawy"
+ 39) "ksiazkaprzygodowa:1:wydawnictwo"
+ 40) "podkategoria_inf:4:typ"
+ 41) "informatyka:1:autor"
+ 42) "typ_oprawy:1:typ"
+ 43) "zdjecia:1:adres_url"
+ 44) "literaturaobca:4:wydawnictwo"
+ 45) "informatyka:2:typ_oprawy"
+ 46) "poradniki:1:wydawnictwo"
+ 47) "ksiazkadladzieci:3:tytul"
+ 48) "ksiazkaprzygodowa:3:autor"
+ 49) "biznes:1:tytul"
+ 50) "poradniki:1:tytul"
+ 51) "literaturaobca:4:typ_oprawy"
+ 52) "zdjecia:5:adres_url"
+ 53) "poradniki:1:typ_oprawy"
+ 54) "ksiazkadladzieci:2:typ_oprawy"
+ 55) "fantastyka"
+ 56) "literaturaobca:3:autor"
+ 57) "biografie:2:tytul"
+ 58) "podkategoria_biznes:1:typ"
+ 59) "ksiazkaprzygodowa:2:typ_oprawy"
+ 60) "ksiazkaprzygodowa:2:autor"
+ 61) "informatyka:3:autor"
+ 62) "poradniki:2:tytul"
+ 63) "biografie:1:rokwydania"
+ 64) "informatyka:4:podkategoria_inf"
+ 65) "literaturaobca:2:rokwydania"
+ 66) "informatyka:2:wydawnictwo"
+ 67) "biografie:3:tytul"
+ 68) "podkategoria_biznes:7:typ"
+ 69) "biografie:3:wydawnictwo"
+ 70) "informatyka:1:typ_oprawy"
+ 71) "biznes:1:zdjecia"
+ 72) "literaturaobca:3:wydawnictwo"
+ 73) "biznes:1:autor"
+ 74) "literaturaobca:4:rokwydania"
+ 75) "podkategoria_inf:7:typ"
+ 76) "ksiazkadladzieci:2:tytul"
+ 77) "ksiazkadladzieci:1:typ_oprawy"
+ 78) "informatyka:3:wydawnictwo"
+ 79) "literaturaobca:1:wydawnictwo"
+ 80) "ksiazkaprzygodowa:1:autor"
+ 81) "podkategoria_biznes:5:typ"
+ 82) "fantastyka:3:wydawnictwo"
+ 83) "poradniki:2:wydawnictwo"
+ 84) "fanstastyka"
+ 85) "fantastyka:2:tytul"
+ 86) "ksiazkadladzieci:1:odroku"
+ 87) "fantastyka:1:wydawnictwo"
+ 88) "biografie:3:autor"
+ 89) "biznes:2:rokwydania"
+ 90) "fantastyka:2:typ_oprawy"
+ 91) "podkategoria_biznes:6:typ"
+ 92) "literaturaobca:2:wydawnictwo"
+ 93) "literaturaobca:1:rokwydania"
+ 94) "fantastyka:3:rokwydania"
+ 95) "poradniki:3:tytul"
+ 96) "podkategoria_inf:2:typ"
+ 97) "literaturaobca:1:jezyk"
+ 98) "3top_ksiazki_roku"
+ 99) "zdjecia:2:adres_url"
+100) "ksiazkadladzieci:3:odroku"
+101) "fantastyka:3:tytul"
+102) "informatyka:4:wydawnictwo"
+103) "poradniki:1:rokwydania"
+104) "biografie:2:wydawnictwo"
+105) "biografie:1:wydawnictwo"
+106) "zdjecia:3:adres_url"
+107) "literaturaobca:4:jezyk"
+108) "podkategoria_biznes:3:typ"
+109) "biografie:1:typ_oprawy"
+110) "biznes:1:rokwydania"
+111) "biografie:3:typ_oprawy"
+112) "poradniki:3:typ_oprawy"
+113) "ksiazkaprzygodowa:2:wydawnictwo"
+114) "informatyka:4:autor"
+115) "biografie:2:osoba"
+116) "fantastyka:1:tytul"
+117) "informatyka:2:autor"
+118) "informatyka:1:tytul"
+119) "stud"
+120) "poradniki:3:rokwydania"
+121) "biografie:2:rokwydania"
+122) "fastastyka"
+123) "podkategoria_inf:5:typ"
+124) "typ_oprawy:2:typ"
+125) "informatyka:3:rokwydania"
+126) "biznes:2:wydawnictwo"
+127) "informatyka:4:tytul"
+128) "fantastyka:1:typ_oprawy"
+129) "ksiazkaprzygodowa:1:rokwydania"
+130) "podkategoria_inf:1:typ"
+131) "informatyka:1:wydawnictwo"
+132) "ksiazkadladzieci:2:wydawnictwo"
+133) "literaturaobca:4:tytul"
+134) "informatyka:3:tytul"
+135) "zdjecia:5:opis"
+136) "biznes:2:typ_oprawy"
+137) "literaturaobca:1:autor"
+138) "poradniki:3:autor"
+139) "poradniki:3:wydawnictwo"
+140) "poradniki:1:autor"
+141) "informatyka:2:tytul"
+142) "fantastyka:3:typ_oprawy"
+143) "biografie:1:autor"
+144) "ksiazkadladzieci:2:odroku"
+145) "poradniki:2:typ_oprawy"
+146) "biografie:1:tytul"
+147) "biografie:1:zdjecia"
+148) "informatyka:2:rokwydania"
+149) "ksiazkadladzieci:3:wydawnictwo"
+150) "key"
+151) "informatyka:1:rokwydania"
+152) "fantastyka:1:rokwydania"
+153) "biznes:1:typ_oprawy"
+154) "podkategoria_inf:3:typ"
+155) "literaturaobca:2:autor"
+156) "ksiazkaprzygodowa:3:rokwydania"
+157) "informatyka:4:typ_oprawy"
+158) "literaturaobca:3:jezyk"
+159) "informatyka:3:typ_oprawy"
+160) "top_ksiazki_roku"
+161) "ksiazkadladzieci:1:wydawnictwo"
+162) "literaturaobca:2:typ_oprawy"
+163) "biznes:2:zdjecia"
+164) "ksiazkaprzygodowa:3:typ_oprawy"
+165) "fantastyka:3:autor"
+166) "literaturaobca:4:autor"
+167) "biznes:1:wydawnictwo"
+168) "literaturaobca:1:typ_oprawy"
+127.0.0.1:6379> values *
+(error) ERR unknown command 'values'
+127.0.0.1:6379> * values
+(error) ERR unknown command '*'
+127.0.0.1:6379> get informatyka
+(nil)
+127.0.0.1:6379> get informatyka:3
+(nil)
+127.0.0.1:6379> get:informatyka:3:rokwydania
+(error) ERR unknown command 'get:informatyka:3:rokwydania'
+127.0.0.1:6379> get informatyka:3:rokwydania
+"2020"
+127.0.0.1:6379> SADD wydawnictwa "Wydawnictwo Helion"
+(integer) 1
+127.0.0.1:6379> SMEMBERS wydawnictwa
+1) "Wydawnictwo Helion"
+127.0.0.1:6379> SADD wydawnictwa "Wydawnictwo Helion"
+(integer) 0
+127.0.0.1:6379> SMEMBERS wydawnictwa
+1) "Wydawnictwo Helion"
+127.0.0.1:6379> SADD wydawnictwa "Wydawnictwo Marginesy"
+(integer) 1
+127.0.0.1:6379> SMEMBERS wydawnictwa
+1) "Wydawnictwo Helion"
+2) "Wydawnictwo Marginesy"
+127.0.0.1:6379> SADD wydawnictwa "Wydawnictwo Znak"
+(integer) 1
+127.0.0.1:6379> SADD wydawnictwa "Wydawnictwo SQN"
+(integer) 1
+127.0.0.1:6379> SADD wydawnictwa "Instytut Praktycznej Edukacji"
+(integer) 1
+127.0.0.1:6379> SADD wydawnictwa "Znak Horyzont"
+(integer) 1
+127.0.0.1:6379> SMEMBERS wydawnictwa
+1) "Wydawnictwo Znak"
+2) "Wydawnictwo SQN"
+3) "Wydawnictwo Marginesy"
+4) "Znak Horyzont"
+5) "Wydawnictwo Helion"
+6) "Instytut Praktycznej Edukacji"
+127.0.0.1:6379> SADD wydawnictwa "Wydawnictwo Feeria"
+(integer) 1
+127.0.0.1:6379> SADD wydawnictwa "Publicat"
+(integer) 1
+127.0.0.1:6379> SADD wydawnictwa "Pax"
+(integer) 1
+127.0.0.1:6379> SADD wydawnictwa "Nasza ksiegarnia"
+(integer) 1
+127.0.0.1:6379> SADD wydawnictwa "We need YA"
+(integer) 1
+127.0.0.1:6379> SADD wydawnictwa "Fabryka Sﾈﾢw Sp. z o.o."
+(integer) 1
+127.0.0.1:6379> SADD wydawnictwa "Wydawnictwo Iskry"
+(integer) 1
+127.0.0.1:6379> SADD wydawnictwa "LittleLove"
+(integer) 1
+127.0.0.1:6379> SADD wydawnictwa "Poltext"
+(integer) 1
+127.0.0.1:6379> SADD wydawnictwa "Carlsen Verlag"
+(integer) 1
+127.0.0.1:6379> SADD wydawnictwa "Simon & Schuster Ltd"
+(integer) 1
+127.0.0.1:6379> SADD wydawnictwa "Little Brown Book Group"
+(integer) 1
+127.0.0.1:6379> SMEMBERS wydawnictwa
+ 1) "Wydawnictwo Iskry"
+ 2) "Wydawnictwo Helion"
+ 3) "Poltext"
+ 4) "Wydawnictwo Znak"
+ 5) "Instytut Praktycznej Edukacji"
+ 6) "Wydawnictwo SQN"
+ 7) "Wydawnictwo Marginesy"
+ 8) "Nasza ksiegarnia"
+ 9) "Carlsen Verlag"
+10) "Pax"
+11) "Publicat"
+12) "Znak Horyzont"
+13) "Wydawnictwo Feeria"
+14) "LittleLove"
+15) "We need YA"
+16) "Simon & Schuster Ltd"
+17) "Fabryka S\x88\xa2w Sp. z o.o."
+18) "Little Brown Book Group"
+127.0.0.1:6379> SCARD wydawnictwa
+(integer) 18
+127.0.0.1:6379> SSCAN
+(error) ERR wrong number of arguments for 'sscan' command
+127.0.0.1:6379> SSCAN wydawnictwa
+(error) ERR wrong number of arguments for 'sscan' command
+127.0.0.1:6379> SADD wydawnictwa_anglojezyczne "Bloomberg"
+(integer) 1
+127.0.0.1:6379> SADD wydawnictwa_anglojezyczne "Simon & Schuster Ltd"
+(integer) 1
+127.0.0.1:6379> SDIFF wydawnictwa wydawnictwa_anglojezyczne
+ 1) "Fabryka S\x88\xa2w Sp. z o.o."
+ 2) "Wydawnictwo Iskry"
+ 3) "Wydawnictwo Helion"
+ 4) "Wydawnictwo Znak"
+ 5) "Poltext"
+ 6) "Instytut Praktycznej Edukacji"
+ 7) "Wydawnictwo SQN"
+ 8) "Wydawnictwo Marginesy"
+ 9) "Nasza ksiegarnia"
+10) "Pax"
+11) "Carlsen Verlag"
+12) "Publicat"
+13) "Wydawnictwo Feeria"
+14) "Znak Horyzont"
+15) "We need YA"
+16) "LittleLove"
+17) "Little Brown Book Group"
+127.0.0.1:6379> SADD wydawnictwa_anglojezyczne "Little Brown Book Group"
+(integer) 1
+127.0.0.1:6379> SDIFF wydawnictwa wydawnictwa_anglojezyczne
+ 1) "Fabryka S\x88\xa2w Sp. z o.o."
+ 2) "Wydawnictwo Iskry"
+ 3) "Wydawnictwo Helion"
+ 4) "Wydawnictwo Znak"
+ 5) "Poltext"
+ 6) "Instytut Praktycznej Edukacji"
+ 7) "Wydawnictwo SQN"
+ 8) "Wydawnictwo Marginesy"
+ 9) "Nasza ksiegarnia"
+10) "Pax"
+11) "Carlsen Verlag"
+12) "Publicat"
+13) "Wydawnictwo Feeria"
+14) "Znak Horyzont"
+15) "We need YA"
+16) "LittleLove"
+127.0.0.1:6379> SADD wydawnictwa_anglojezyczne "We need YA"
+(integer) 1
+127.0.0.1:6379> SDIFF wydawnictwa wydawnictwa_anglojezyczne
+ 1) "Fabryka S\x88\xa2w Sp. z o.o."
+ 2) "Wydawnictwo Iskry"
+ 3) "Wydawnictwo Helion"
+ 4) "Wydawnictwo Znak"
+ 5) "Poltext"
+ 6) "Instytut Praktycznej Edukacji"
+ 7) "Wydawnictwo SQN"
+ 8) "Wydawnictwo Marginesy"
+ 9) "Nasza ksiegarnia"
+10) "Pax"
+11) "Carlsen Verlag"
+12) "Publicat"
+13) "Wydawnictwo Feeria"
+14) "Znak Horyzont"
+15) "LittleLove"
+127.0.0.1:6379> ZADD ksiazki_informatyczne_ceny 59.99 "Czysty kod. Podrecznik dobrego programisty" 39.99 "Strategia UX. Techniki tworzenia innowacyjnych rozwiazan cyfrowych" 99.99 "Python.Automatyzacja zadan." 45.99"Uczenie glebokie i sztuczna inteligencja"
+(error) ERR syntax error
+127.0.0.1:6379> ZADD ksiazki 5.66 ksiazka1 56.66 ksiazka2
+(integer) 2
+127.0.0.1:6379> ZCARD ksiazki
+(integer) 2
+127.0.0.1:6379> ZCOUNT ksiazki
+(error) ERR wrong number of arguments for 'zcount' command
+127.0.0.1:6379> ZCOUNT ksiazki 1 10
+(integer) 1
+127.0.0.1:6379> ZSCORE ksiazki 2
+(nil)
+127.0.0.1:6379> ZSCORE ksiazki 1
+(nil)
+127.0.0.1:6379> SMEMBERS informatyka
+(empty list or set)
+127.0.0.1:6379>  SMEMBERS wydawnictwa
+1) "Little Brown Book Group"
+2) "We need YA"
+3) "Bloomberg"
+127.0.0.1:6379> ZADD ksiazki_informatyczne_ceny 59.99 Czysty kod. Podrecznik dobrego programisty 39.99 Strategia UX. Techniki tworzenia innowacyjnych rozwiazan cyfrowyc" 99.99 "Python.Automatyzacja zadan." 45.99"Uczenie glebokie i sztuc→t"
+Invalid argument(s)
+127.0.0.1:6379> ZADD ksiazki_informatyczne_cen_y 58.99 "Czysty kod. Podrecznik dobrego programisty " 34.99 "Strategia UX"
+(integer) 2
+127.0.0.1:6379> ZADD ksiazki_informatycznexamplee_cen_y 58.99 "Czysty kod. Podrecznik dobrego programisty " 34.99 "Strategia UX" 78.99 "AAAAA"
+(integer) 3
+127.0.0.1:6379> ZADD kategorie_ksiazek_obcojezycznych 1 "Biografie" 2 "Biznes" 3 "Fantastyka" 4 "Kryminal" 5 "Literatura faktu" 6 "Romanse"
+(integer) 6
+127.0.0.1:6379> ZCOUNT kategorie_ksiazek_obcojezycznych 1 6
+(integer) 6
+127.0.0.1:6379> ZCARD kategorie_ksiazek_obcojezycznych
+(integer) 6
+127.0.0.1:6379> BZPOPMIN kategorie_ksiazek_obcojezycznych
+(error) ERR unknown command 'BZPOPMIN'
+127.0.0.1:6379> ZDIFF 6 kategorie_ksiazek_obcojezycznych
+(error) ERR unknown command 'ZDIFF'
+127.0.0.1:6379> ZRANGE out 0 -1 WITHSCORES
+(empty list or set)
+127.0.0.1:6379> ZRANGE kategorie_ksiazek_obcojezycznych 0 -1 WITHSCORES
+ 1) "Biografie"
+ 2) "1"
+ 3) "Biznes"
+ 4) "2"
+ 5) "Fantastyka"
+ 6) "3"
+ 7) "Kryminal"
+ 8) "4"
+ 9) "Literatura faktu"
+10) "5"
+11) "Romanse"
+12) "6"
+127.0.0.1:6379> ZRANGE kategorie_ksiazek_obcojezycznych 0 -1
+1) "Biografie"
+127.0.0.1:6379>
+127.0.0.1:6379> ZRANGE kategorie_ksiazek_obcojezycznych 0 -1
+1) "Biografie"
+2) "Biznes"
+3) "Fantastyka"
+4) "Kryminal"
+5) "Literatura faktu"
+6) "Romanse"
+127.0.0.1:6379> ZADD kategorie_ksiazek_polskich 7  "Ksiazki kucharskie" 8 "Poradniki"
+(integer) 2
+127.0.0.1:6379> ZUNION kategorie_ksiazek_obcojezycznych kategorie_ksiazek_polskich
+(error) ERR unknown command 'ZUNION'
+127.0.0.1:6379> ZUNION 2  kategorie_ksiazek_obcojezycznych kategorie_ksiazek_polskich
+(error) ERR unknown command 'ZUNION'
+127.0.0.1:6379> ZUNION 2  kategorie_ksiazek_obcojezycznych kategorie_ksiazek_polskich
+(error) ERR unknown command 'ZUNION'
+127.0.0.1:6379> ZADD kategorie_ksiazek_polskich 7  "Ksiazki kucharskie" 8 "Poradniki" 2 FANTASTYKA
+(integer) 1
+127.0.0.1:6379> ZUNION 2  kategorie_ksiazek_obcojezycznych kategorie_ksiazek_polskich
+(error) ERR unknown command 'ZUNION'
+127.0.0.1:6379> ZUNION 2 kategorie_ksiazek_obcojezycznych kategorie_ksiazek_polskich
+(error) ERR unknown command 'ZUNION'
+127.0.0.1:6379> ZUNION 1 kategorie_ksiazek_obcojezycznych kategorie_ksiazek_polskich
+(error) ERR unknown command 'ZUNION'
+127.0.0.1:6379> ZADD kategorie_ksiazekpolskich 1  "Biografie" 2 "Biznes" 3 "Fantastyka" 4 "Kryminal" 5 "Literatura faktu" 6 "Romanse" 7 "IT" 8 "Poradniki"
+(integer) 8
+127.0.0.1:6379> ZUNION 2 kategorie_ksiazek_obcojezycznych kategorie_ksiazek_polskich
+(error) ERR unknown command 'ZUNION'
+127.0.0.1:6379> HSET autor pierwsze_imie Joanne
+(integer) 1
+127.0.0.1:6379> HMSET autor drugie_imie Kathleen nazwisko Rowling miejsceurodzenia Anglia
+OK
+127.0.0.1:6379> HSET autor ksiazka HarryPotter
+(integer) 1
+127.0.0.1:6379> HSET autor iloscsprzedanych_egzemplarzy 50000000
+(integer) 1
+127.0.0.1:6379> HINCRBYFLOAT autor iloscsprzedanych_egzemplarzy +1000000
+"51000000"
+127.0.0.1:6379> HGETALL autor
+ 1) "pierwsze_imie"
+ 2) "Joanne"
+ 3) "drugie_imie"
+ 4) "Kathleen"
+ 5) "nazwisko"
+ 6) "Rowling"
+ 7) "miejsceurodzenia"
+ 8) "Anglia"
+ 9) "ksiazka"
+10) "HarryPotter"
+11) "iloscsprzedanych_egzemplarzy"
+12) "51000000"
+127.0.0.1:6379> HKEYS autor
+1) "pierwsze_imie"
+2) "drugie_imie"
+3) "nazwisko"
+4) "miejsceurodzenia"
+5) "ksiazka"
+6) "iloscsprzedanych_egzemplarzy"
+127.0.0.1:6379>
+127.0.0.1:6379> HGET autor ksiazka
+"HarryPotter"
+127.0.0.1:6379> HGET autor 5
+(nil)
+127.0.0.1:6379> KEYS literaturaobca
+(empty list or set)
+127.0.0.1:6379> KEYS literaturaobca*
+ 1) "literaturaobca:1:jezyk"
+ 2) "literaturaobca:1:wydawnictwo"
+ 3) "literaturaobca:4:typ_oprawy"
+ 4) "literaturaobca:4:jezyk"
+ 5) "literaturaobca:1:rokwydania"
+ 6) "literaturaobca:2:tytul"
+ 7) "literaturaobca:3:typ_oprawy"
+ 8) "literaturaobca:2:wydawnictwo"
+ 9) "literaturaobca:4:wydawnictwo"
+10) "literaturaobca:3:autor"
+11) "literaturaobca:2:typ_oprawy"
+12) "literaturaobca:1:tytul"
+13) "literaturaobca:2:autor"
+14) "literaturaobca:3:jezyk"
+15) "literaturaobca:3:wydawnictwo"
+16) "literaturaobca:4:rokwydania"
+17) "literaturaobca:3:tytul"
+18) "literaturaobca:4:autor"
+19) "literaturaobca:4:tytul"
+20) "literaturaobca:3:rokwydania"
+21) "literaturaobca:1:autor"
+22) "literaturaobca:2:jezyk"
+23) "literaturaobca:1:typ_oprawy"
+24) "literaturaobca:2:rokwydania"
+127.0.0.1:6379> KEYS zdjecia*
+1) "zdjecia:1:adres_url"
+2) "zdjecia:2:adres_url"
+3) "zdjecia:5:opis"
+4) "zdjecia:4:opis"
+5) "zdjecia:4:adres_url"
+6) "zdjecia:3:adres_url"
+7) "zdjecia:5:adres_url"
+127.0.0.1:6379> KEYS zdjecia:*
+1) "zdjecia:1:adres_url"
+2) "zdjecia:2:adres_url"
+3) "zdjecia:5:opis"
+4) "zdjecia:4:opis"
+5) "zdjecia:4:adres_url"
+6) "zdjecia:3:adres_url"
+7) "zdjecia:5:adres_url"
+127.0.0.1:6379> KEYS zdjecia *
+(error) ERR wrong number of arguments for 'keys' command
+127.0.0.1:6379> KEYS fantastyka *
+(error) ERR wrong number of arguments for 'keys' command
+127.0.0.1:6379> KEYS fantastyka*
+ 1) "fantastyka:1:wydawnictwo"
+ 2) "fantastyka"
+ 3) "fantastyka:2:autor"
+ 4) "fantastyka:2:rokwydania"
+ 5) "fantastyka:2:tytul"
+ 6) "fantastyka:3:autor"
+ 7) "fantastyka:1:typ_oprawy"
+ 8) "fantastyka:1:rokwydania"
+ 9) "fantastyka:2:wydawnictwo"
+10) "fantastyka:3:wydawnictwo"
+11) "fantastyka:3:rokwydania"
+12) "fantastyka:3:typ_oprawy"
+13) "fantastyka:2:typ_oprawy"
+14) "fantastyka:1:tytul"
+15) "fantastyka:1:autor"
+16) "fantastyka:3:tytul"
+127.0.0.1:6379> HMSET poradnik:1 tytul "Emocje. To, o czym doroﾘli Ci nie mﾢwiﾥ" autor "Max Skorwider Boguﾘ Janiszewski" wydawnictwo "Publicat" rokwydania "2021" typ_oprawy typ_oprawy:1
+OK
+127.0.0.1:6379> HMSET poradnik:1 tytul "ZACZNIJ OD DZISIAJ" autor "EWELINA MIERZWI￣SKA" wydawnictwo "Publicat" rokwydan127.0.0.1:6379> HMSET poradnik:1 tytul "ZACZNIJ OD DZISIAJ" autor "EWELINA MIERZWI￣SKA" wydawnictwo "Publicat" rokwydania "2018" typ_oprawy typ_oprawy:1
+OK
+127.0.0.1:6379> HMSET poradnik:1 tytul "Emocje. To, o czym doroﾘli Ci nie mﾢwiﾥ" autor "Max Skorwider Boguﾘ Janiszewski" wydawnictwo "Publicat" rokwydania "2021" typ_oprawy typ_oprawy:1
+OK
+127.0.0.1:6379> HMSET poradnik:2 tytul "ZACZNIJ OD DZISIAJ" autor "EWELINA MIERZWI￣SKA" wydawnictwo "Publicat" rokwydan127.0.0.1:6379> HMSET poradnik:2 tytul "ZACZNIJ OD DZISIAJ" autor "EWELINA MIERZWI￣SKA" wydawnictwo "Publicat" rokwydania "2018" typ_oprawy typ_oprawy:1
+OK
+127.0.0.1:6379> HMSET poradnik:3 tytul "Jak mniej myﾘleﾆ." autor "Krﾢl Marta" wydawnictwo "Wydawnictwo Feeria" rokwydania "2020" typ_oprawy typ_oprawy:2
+OK
+127.0.0.1:6379> KEYS poradnik*
+ 1) "poradniki:3:tytul"
+ 2) "poradniki:3:autor"
+ 3) "poradniki:2:rokwydania"
+ 4) "poradniki:1:wydawnictwo"
+ 5) "poradnik:1"
+127.0.0.1:6379> HMSET ksiazka_kucharska:3 tytul "KUCHNIE ﾗWIATA" autor "Praca zbiorowa" wydawnictwo "Wydawnictwo Feeria" rokwydania "2020" typ_oprawy typ_oprawy:2
+OK
+127.0.0.1:6379> KEYS ksiazka_kucharska*
+1) "ksiazka_kucharska:1"
+2) "ksiazka_kucharska:3"
+3) "ksiazka_kucharska:2"
+127.0.0.1:6379> SADD zbior_ksiazek "Dom Gucci. Potega mody, szalenstwo pieniedzy, gorycz upadku" "My Love Story. Autobiografia" "Diana. Jej historia" "Quo vadis" "Pozwﾢl, ﾾe ci opowiem" "O niepodlegﾈoﾘﾆ i prawa kobiet"
+(integer) 6
+127.0.0.1:6379> SMEMBERS zbior_ksiazek
+1) "Quo vadis"
+2) "O niepodleg\x88o\x98\x86 i prawa kobiet"
+3) "Dom Gucci. Potega mody, szalenstwo pieniedzy, gorycz upadku"
+4) "Pozw\xa2l, \xbee ci opowiem"
+5) "My Love Story. Autobiografia"
+6) "Diana. Jej historia"
+127.0.0.1:6379> SMEMBERS zbior_ksiazek
+1) "Quo vadis"
+2) "O niepodleg\x88o\x98\x86 i prawa kobiet"
+3) "Dom Gucci. Potega mody, szalenstwo pieniedzy, gorycz upadku"
+4) "Pozw\xa2l, \xbee ci opowiem"
+5) "My Love Story. Autobiografia"
+6) "Diana. Jej historia"
+127.0.0.1:6379> SMEMBERS zbior_ksiazek
+1) "Ania z zielonego wzgorza"
+2) "O niepodleg\x88o\x98\x86 i prawa kobiet"
+3) "Dom Gucci. Potega mody, szalenstwo pieniedzy, gorycz upadku"
+4) "Quo vadis"
+5) "Pozw\xa2l, \xbee ci opowiem"
+6) "My Love Story. Autobiografia"
+7) "Diana. Jej historia"
+127.0.0.1:6379> KEYS ksiazka_kucharska*
+1) "ksiazka_kucharska:1"
+2) "ksiazka_kucharska:3"
+3) "ksiazka_kucharska:2"
+127.0.0.1:6379> HMSET ksiazka_kucharska:1 tytul "HASHIMOTO -DROGA DO UZDROWIENIA SIEBIE" autor "Max Skorwider Boguﾘ Janiszewski" wydawnictwo "Publicat" rokwydania "2021" typ_oprawy typ_oprawy:1
+OK
+127.0.0.1:6379> HMSET ksiazka_kucharska:2 tytul "Lunchbox na kaﾾdy dzie￤. FIT BENTO " autor "EWELINA MIERZWI￣SKA" wydawnictwo "Publicat" rokwydania "2018"127.0.0.1:6379> HMSET ksiazka_kucharska:2 tytul "Lunchbox na kaﾾdy dzie￤. FIT BENTO " autor "EWELINA MIERZWI￣SKA" wydawnictwo "Publicat" rokwydania "2018"127.0.0.1:6379> HMSET ksiazka_kucharska:2 tytul "Lunchbox na kaﾾdy dzie￤. FIT BENTO " autor "EWELINA MIERZWI￣SKA" wydawnictwo "Publicat" rokwydania "2018" typ_oprawy typ_oprawy:1
+OK
+127.0.0.1:6379> HMSET ksiazka_kucharska:3 tytul "KUCHNIE ﾗWIATA" autor "Praca zbiorowa" wydawnictwo "Wydawnictwo Feeria" rokwydania "2020" typ_oprawy typ_oprawy:2
+OK
+127.0.0.1:6379>
+127.0.0.1:6379> KEYS ksiazka_kucharska*
+1) "ksiazka_kucharska:1"
+2) "ksiazka_kucharska:3"
+3) "ksiazka_kucharska:2"
+127.0.0.1:6379> KEYS ksiazka_kucharska tytul
+(error) ERR wrong number of arguments for 'keys' command
+127.0.0.1:6379> KEYS ksiazka_kucharska:3 tytul
+(error) ERR wrong number of arguments for 'keys' command
+127.0.0.1:6379> KEYS ksiazka_kucharska:3:tytul
+(empty list or set)
+127.0.0.1:6379> SMEMBERS zbior_ksiazek
+1) "Ania z zielonego wzgorza"
+2) "O niepodleg\x88o\x98\x86 i prawa kobiet"
+3) "Titanic"
+4) "Dom Gucci. Potega mody, szalenstwo pieniedzy, gorycz upadku"
+5) "Quo vadis"
+6) "Pozw\xa2l, \xbee ci opowiem"
+7) "My Love Story. Autobiografia"
+8) "Diana. Jej historia"
+127.0.0.1:6379> SMEMBERS zbior_ksiazek
+1) "Ania z zielonego wzgorza"
+2) "O niepodleg\x88o\x98\x86 i prawa kobiet"
+3) "Dom Gucci. Potega mody, szalenstwo pieniedzy, gorycz upadku"
+4) "Quo vadis"
+5) "Pozw\xa2l, \xbee ci opowiem"
+6) "My Love Story. Autobiografia"
+7) "Diana. Jej historia"
+127.0.0.1:6379> KEYS ksiazka_kucharska*
+1) "ksiazka_kucharska:1"
+2) "ksiazka_kucharska:3"
+3) "ksiazka_kucharska:2"
+127.0.0.1:6379> HGETALL ksiazka_kucharska
+(empty list or set)
+127.0.0.1:6379> HGETALL ksiazka_kucharska:1
+ 1) "tytul"
+ 2) "HASHIMOTO -DROGA DO UZDROWIENIA SIEBIE"
+ 3) "autor"
+ 4) "Max Skorwider Bogu\x98 Janiszewski"
+ 5) "wydawnictwo"
+ 6) "Publicat"
+ 7) "rokwydania"
+ 8) "2021"
+ 9) "typ_oprawy"
+10) "typ_oprawy:1"
+127.0.0.1:6379> get ksiazka_kucharska:*
+(nil)
+127.0.0.1:6379> hvals ksiazka_kucharska:1
+1) "HASHIMOTO -DROGA DO UZDROWIENIA SIEBIE"
+2) "Max Skorwider Bogu\x98 Janiszewski"
+3) "Publicat"
+4) "2021"
+5) "typ_oprawy:1"
+127.0.0.1:6379> hvals ksiazka_kucharska:*
+(empty list or set)
+127.0.0.1:6379> hget ksiazka_kucharska:*
+(error) ERR wrong number of arguments for 'hget' command
+127.0.0.1:6379> HGETALL ksiazka_kucharska:2
+ 1) "tytul"
+ 2) "Lunchbox na ka\xbedy dzie\xe4. FIT BENTO "
+ 3) "autor"
+ 4) "EWELINA MIERZWI\xe3SKA"
+ 5) "wydawnictwo"
+ 6) "Publicat"
+ 7) "rokwydania"
+ 8) "2018"
+ 9) "typ_oprawy"
+10) "typ_oprawy:1"
+127.0.0.1:6379>
