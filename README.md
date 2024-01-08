@@ -1,5 +1,5 @@
 # Redis_Project
-I created library databases in MongoDB and library application in JavaScript. In my projected I used:
+I created library databases in Redis and library application in JavaScript. In my projected I used:
 * Preparation of meaningful, consistent data.
 * Datatypes as: string, lists, sets, sorted sets, hashes.
 * two scripts in Lua
